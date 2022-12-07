@@ -1,0 +1,8 @@
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.*
+tfplan
+.DS_Store
+*.hcl
+.terraform/
+.infracost
