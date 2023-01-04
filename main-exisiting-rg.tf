@@ -4,6 +4,7 @@ module "network" {
   subnet_name         = var.subnet_name
   vnet_name           = var.vnet_name
   resource_group_name = var.resource_group_name # The Resource Group
+  tags                = var.resource_tags
 }
 
 # Identities

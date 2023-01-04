@@ -14,3 +14,12 @@ variable "public_subnet_cidr_blocks" {
   type        = list(any)
   description = "List of public subnet CIDR blocks"
 }
+
+variable "resource_tags" {
+  description = "Tags to set for all resources"
+  type        = map(string)
+  default = {
+    project     = "project-name",
+    environment = "dev"
+  }
+}
